@@ -1,6 +1,6 @@
 # Virtualmin Docker Shell Run
 
-[![Build Status](https://github.com/fabiobraganet/virtualminsdockershellrun/actions/workflows/build.yml/badge.svg)](https://github.com/fabiobraganet/virtualminsdockershellrun/actions)
+[![Build Status](https://github.com/fabiobraganet/virtualminsdockershellrun/actions/workflows/rust.yml/badge.svg)](https://github.com/fabiobraganet/virtualminsdockershellrun/actions)
 
 ## Índice
 
