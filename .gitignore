@@ -396,3 +396,24 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Rust specific ignores
+/target/
+**/*.rs.bk
+**/*.rs.old
+
+# Cargo package cache
+/.cargo
+/.rustup
+
+# Backup files from the editor
+*~
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Ignorar outros arquivos específicos do projeto
+*.bak
+*.tmp
