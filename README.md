@@ -1,7 +1,6 @@
 # Virtualmin Docker Shell Run
 
-[![Build Status](https://github.com/username/virtualminsdockershellrun/actions/workflows/build.yml/badge.svg)](https://github.com/username/virtualminsdockershellrun/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://github.com/fabiobraganet/virtualminsdockershellrun/actions/workflows/build.yml/badge.svg)](https://github.com/fabiobraganet/virtualminsdockershellrun/actions)
 
 ## Índice
 
