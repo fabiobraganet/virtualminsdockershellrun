@@ -19,6 +19,11 @@ pub fn monitor_apache_config(hostname: &str, apache_config_file: &str) {
 fn add_config_line_to_apache(hostname: &str, apache_config_file: &str) {
     let config_line = format!("ServerName {}", hostname);
     
+    if !std::path::Path::new(apache_config_file).exists() {
+        log_message(&format!("Arquivo de configuração do Apache não encontrado: {}. Verifique se o caminho está correto e o arquivo existe.", apache_config_file));
+        return;
+    }
+
     let config_content = std::fs::read_to_string(apache_config_file).expect(ERR_LER_ARQUIVO);
     
     if !config_content.contains(&config_line) {
